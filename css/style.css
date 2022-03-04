@@ -1,0 +1,462 @@
+@import url(../css/font.css);
+
+html {
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+/* preloader */
+#preloader {
+    overflow: hidden;
+    background-color: #98ccd3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 99999;
+    color: #fff;
+  }
+  
+  #preloader .jumper {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #preloader .jumper .spinner-border {
+    color: #ff3c0a;
+  }
+  
+
+
+/* fonts */
+.Montserrat {
+  font-family: Montserrat,Montserrat-Medium;
+}
+
+.Oswald {
+  font-family: Oswald,Oswald-VariableFont_wght;
+}
+
+/* fonts color */
+.f-color {
+    color: #ff3c0a;
+}
+
+/* background color */
+.bgcolor {
+    background-color: #202325;
+    color: #fff;
+}
+
+/* navigation */
+button i {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+#mainNav {
+    border-top: 10px solid #98ccd3;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #202325;
+    transition: background-color 0.2s ease;
+}
+
+#mainNav .navbar-brand {
+    width: 25%;
+    height: auto;
+    color: #fff;
+}
+
+#mainNav .navbar-brand span {
+    color: #ff3c0a;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+    transition: all 0.2s ease;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #98ccd3;
+}
+
+/* basic class for all containers */
+.basic {
+    padding: 4.5rem 0 1.5rem;
+}
+
+/* basic class for main tag*/
+.basic .text-container-main {
+    padding: 80px 0;
+}
+
+.basic h2 {
+	margin-bottom: 1.375rem;
+}
+
+.testimonial-ceo {
+    margin: 0 0 0.75rem;
+}
+
+.basic .text-container-main .btn-discover {
+    padding: 0.75rem 2rem 0.75rem;
+	border: 0.125rem solid #98ccd3;
+    color: #fff;
+    font-size: 0.95rem;
+    background-color: #98ccd3;
+    border-color: #98ccd3;
+}
+
+.basic .text-container-main .btn-discover:hover {
+    color: #262626;
+    background-color: transparent;
+    border-color: #98ccd3;
+}
+
+.basic .image-container-img {
+    width: 100%;
+    height: 25rem;
+} 
+  
+/* basic class for first section tag*/
+.text-container .about {
+    font-size: 2.2rem;
+}
+
+.basic .first-image-container {
+    width: 100%;
+    height: 25rem;
+    background: url(../assets/img/home-plan-sketch-pencil-wallpaper-preview.jpg) center/cover no-repeat;
+} 
+
+/* basic class for second section tag*/
+.basic .text-container {
+    padding: 5%;
+}
+
+.section-icon {
+    margin: 0;
+    color: #262626;
+    font-size: 2.75rem;
+    padding: 4%;
+}
+
+/* basic class for second section tag -- title-tag */
+.section-title {
+    margin-bottom: 1.5rem;
+}
+
+.section-title h3 {
+    font-size: 1.7rem;
+}
+
+.learn-more a {
+    text-decoration: none;
+    font-size: 0.90rem;
+    color: #ff3c0a;
+}
+
+.learn-more a:hover i {
+    text-decoration: none;
+    font-size: 0.90rem;
+    color: #fff;
+    background-color: #ff3c0a;
+    padding: 1%;
+}
+
+.learn-text { 
+    margin: 0 0.75rem 0 0;
+    color: #ff3c0a;
+}
+
+.section-bottom {
+    margin-top: 2.5rem;
+}
+
+.basic .btn-portfolio {
+    padding: 0.75rem 2rem 0.75rem;
+	border: 0.125rem solid #98ccd3;
+    color: #fff;
+    font-size: 0.95rem;
+    background-color: #98ccd3;
+    border-color: #98ccd3;
+}
+
+.basic .btn-portfolio:hover {
+    color: #262626;
+    background-color: transparent;
+    border-color: #98ccd3;
+}
+
+/* basic class for third section tag */
+.image-container {
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.basic .image-container-img1 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-1.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img2 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-2.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img3 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-3.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img4 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-4.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img5 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-5.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img6 {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/project-6.jpg) center/cover no-repeat;
+    transition: all 0.3s;
+} 
+
+.basic .image-container-img1:hover, .image-container-img2:hover,
+.image-container-img3:hover, .image-container-img4:hover,
+.image-container-img5:hover, .image-container-img6:hover {
+    transform: scale(1.125);
+}
+
+.dark-overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: .5s ease;
+}
+
+.dark-overlay:hover {
+    opacity: 1;
+}
+
+.dark-overlay-text {
+    position: relative;
+    top: 40%;
+}
+
+/* basic class for fourth section tag */
+.swiper-container {
+    position: relative;
+}
+
+.swiper-slide {
+    padding: 0 1rem;
+}
+
+/* basic class for fifth section tag -- form-tag */
+.image-container-consult {
+    width: 100%;
+    height: 17rem;
+    background: url(../assets/img/neve-patterns-1.jpg) center/cover no-repeat;
+}
+
+.img-consult-text div {
+    position: relative;
+    opacity: 0;
+}
+.img-consult-text:hover div {
+    opacity: 1;
+}
+.img-consult-text:hover{
+    margin-top: -3rem;
+    transition: all 0.5s;
+    background-color: #fff;
+    opacity: 10;
+}
+
+.image-container-consult2 {
+    width: 100%;
+    height: 17rem;
+    background: url(../assets/img/neve-patterns-2.jpg) center/cover no-repeat;
+}
+
+.image-container-consult3 {
+    width: 100%;
+    height: 17rem;
+    background: url(../assets/img/neve-patterns-3.jpg) center/cover no-repeat;
+}
+
+.image-container-consult4 {
+    width: 100%;
+    height: 17rem;
+    background: url(../assets/img/neve-patterns-4.jpg) center/cover no-repeat;
+}
+
+.list-inline-item i {
+    font-size: 1.35rem;
+    color: #98ccd3;
+}
+
+.list-inline-item:hover i {
+    color: #ff3c0a;
+}
+
+/* basic class for sixth section tag */
+.contact {
+    min-width: auto; 
+    height: 100%; 
+    background: linear-gradient(to bottom, rgba(46, 128, 128, 0.747) 0%, rgba(0, 0, 0, 0.849) 100%), url("../assets/img/architecture-art-france.jpg")center/cover fixed no-repeat;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.500) !important;
+    color: #f8f9fa;
+  }
+
+input[type=text] { 
+    width: 100%; 
+    padding: 0.575rem 2.25rem 0.575rem 0.75rem;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
+    color: #212529;
+    border: 1px solid #98ccd3;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus {
+    border-color: #98ccd3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+input[type=email2] { 
+    width: 100%; 
+    padding: 0.575rem 2.25rem 0.575rem 0.75rem;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
+    color: #212529;
+    border: 1px solid #98ccd3;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea[name=textarea]{ 
+    width: 100%; 
+    padding: 0.575rem 2.25rem 0.575rem 0.75rem;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
+    color: #212529;
+    border: 1px solid #98ccd3;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea:focus {
+    border-color: #98ccd3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+input[type=checkbox] { 
+    width: 16px;
+    height: 16px;
+}
+.checkbox {
+    margin: 0 0 1rem;
+    font-size: 00.95rem;
+}
+
+.checkbox .privacy { 
+    margin-left: 0.3rem;
+}
+
+.checkbox .privacy a{ 
+    color: #ff3c0a;
+}
+
+.contact-us {
+    margin: 0 0 0.5rem;
+}
+
+.contact-us i {
+    margin: 0 0 0 1rem;
+}
+
+li .contact-text { 
+    margin: 0 0 0 0.25rem;
+}
+
+li .contact-text a{ 
+    color: inherit;
+}
+
+/* footer */
+.footer-links {
+    margin: 0 0 0.5rem;
+}
+
+li .footer-links a {
+    color: inherit;
+}
+
+input[type=email] { 
+    width: 100%; 
+    padding: 0.475rem 2.25rem 0.475rem 0.75rem;
+    font-size: 0.85rem;
+    margin: 0 0 0.45rem;
+    border-radius: 0.25rem;
+    color: #262626;
+    border: 1px solid #98ccd3;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-call-me {
+    width: 100%;
+    padding: 0.475rem 0;
+	border: 0.125rem solid #98ccd3;
+    color: #262626;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background-color: #98ccd3;
+    border-color: #98ccd3;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-call-me:hover {
+    color: #98ccd3;
+    background-color: transparent;
+    border-color: #98ccd3;
+}
+

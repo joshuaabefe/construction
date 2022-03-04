@@ -1,0 +1,114 @@
+
+/* navigation */
+@media (min-width: 992px) {
+    /* main navigation */
+    #mainNav {
+      box-shadow: none;
+      background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+      width: 10%;
+      height: auto;
+      color: #262626;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+      color: #262626;
+      padding: 0 1rem;
+      transition: all 0.2s ease;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #ff3c0a;
+    }
+    
+    #mainNav.navbar-shrink {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+      background-color: #202325;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #fff;
+    }
+    
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+      color: #fff;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+      color: #98ccd3;
+    }
+
+}
+
+/* basic class for all containers */
+@media (min-width: 992px) {
+    .basic {
+        padding: 6.5rem 0 1.5rem;
+    }
+
+}
+
+/* basic class for main tag*/
+@media (min-width: 992px) {
+    .basic .text-container-main {
+        padding: 20% 5%;
+    }
+
+    .basic h2 {
+        font-size: 3rem;
+    }
+
+    .basic .image-container-img {
+        height: 75vh;
+        
+    } 
+
+}
+ 
+/* basic class for first section tag*/
+@media (min-width: 992px) {
+  .basic .first-image-container {
+    height: 100%;
+} 
+    
+}
+
+/* basic class for second section tag*/
+@media (min-width: 992px) {
+  .basic .text-container h3 {
+    margin-bottom: 0.675rem;
+    font-size: 1.5rem;
+}
+
+/* basic class for second section tag -- title-tag */
+.section-title {
+    margin-bottom: 3.5rem;
+    padding: 0 20rem 0;
+}
+
+.section-title h3 {
+    font-size: 2rem;
+}
+
+    
+}
+
+/* basic class for third section tag */
+@media (min-width: 992px) {
+  
+
+}
+
+/* basic class for fourth section tag*/
+@media (min-width: 992px) {
+  
+}
+
+
+/* basic class for fifth section tag */
+@media (min-width: 992px) {
+    
+}
+
