@@ -15,6 +15,10 @@ $(window).on('load', function() {
 
 // jQuery to collapse the navbar on scroll
 $(document).ready(function() {
+    $(".navbar-toggler").on("click", function () {
+        $("#buttonX").toggleClass("fa-bars fa-times")
+    });
+
     $(window).on("scroll", function () {
         if($(window).scrollTop() >= 20) {
             $(".navbar").addClass("navbar-shrink");
@@ -66,5 +70,16 @@ $(document).ready(function() {
         } 
     },
   
-  });
-  });
+    });
+});
+
+// create the back to top button
+$(document).ready(function(){
+	$(window).scroll(function () {
+        if($(window).scrollTop() >= 50) {
+			$(".back-to-top").fadeIn();
+		} else {
+			$(".back-to-top").fadeOut();
+		}
+	});
+});
