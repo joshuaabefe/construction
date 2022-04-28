@@ -338,7 +338,7 @@ button i {
 .contact {
     min-width: auto; 
     height: 100%; 
-    background: linear-gradient(to bottom, rgba(46, 128, 128, 0.747) 0%, rgba(0, 0, 0, 0.849) 100%), url("../assets/img/architecture-art-france.jpg")center/cover fixed no-repeat;
+    background: linear-gradient(to bottom, rgba(46, 128, 128, 0.747) 0%, rgba(0, 0, 0, 0.849) 100%), url("../assets/img/architecture-art-france.jpg") center/cover fixed no-repeat;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.500) !important;
     color: #f8f9fa;
   }
@@ -456,6 +456,37 @@ input[type=email] {
 
 .btn-call-me:hover {
     color: #98ccd3;
+    background-color: transparent;
+    border-color: #98ccd3;
+}
+
+footer p a { 
+    color: #ff3c0a;
+    text-decoration: none;
+}
+
+footer p a:hover { 
+    color: #98ccd3;
+}
+
+/* back-to-top */
+.back-to-top {
+	position: fixed;
+	right: 1.75rem;
+	bottom: 1.75rem;
+	display: none;
+}
+
+a.btn-light, a:focus.btn-light {
+    border: 0.125rem solid #98ccd3;
+    color: #0d1218;
+    background-color: #98ccd3;
+    border-color: #98ccd3;
+    border-radius: 48%;
+}
+
+a:hover.btn-light {
+	color: #98ccd3;
     background-color: transparent;
     border-color: #98ccd3;
 }
