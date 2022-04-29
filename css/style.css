@@ -475,6 +475,7 @@ footer p a:hover {
 	right: 1.75rem;
 	bottom: 1.75rem;
 	display: none;
+	transition: all 0.5s;
 }
 
 a.btn-light, a:focus.btn-light {
